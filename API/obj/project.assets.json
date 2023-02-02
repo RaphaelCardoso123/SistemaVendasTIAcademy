@@ -3869,11 +3869,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raphael.cardoso\\Desktop\\SistemaVendas\\API\\SistemaVendas.csproj",
+      "projectUniqueName": "C:\\Users\\raphael.cardoso\\Desktop\\SistemaVendas\\SistemaVendasTIAcademy\\API\\SistemaVendas.csproj",
       "projectName": "SistemaVendas",
-      "projectPath": "C:\\Users\\raphael.cardoso\\Desktop\\SistemaVendas\\API\\SistemaVendas.csproj",
+      "projectPath": "C:\\Users\\raphael.cardoso\\Desktop\\SistemaVendas\\SistemaVendasTIAcademy\\API\\SistemaVendas.csproj",
       "packagesPath": "C:\\Users\\raphael.cardoso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raphael.cardoso\\Desktop\\SistemaVendas\\API\\obj\\",
+      "outputPath": "C:\\Users\\raphael.cardoso\\Desktop\\SistemaVendas\\SistemaVendasTIAcademy\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\raphael.cardoso\\AppData\\Roaming\\NuGet\\NuGet.Config",

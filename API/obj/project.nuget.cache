@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UDMR5JBldV7+LCS4BHBkOSIfvjxYz3LIpuY7lK4KUrdL6CRvXsStZaxXmIQTmnQgQOcEjNmQfwux/W9X0U4Mhw==",
+  "dgSpecHash": "MSLlwUBrAuCB2MZf98TOUTPsGDTPFpOtDSJAmbkw1rvmILAK4ml6ScpE/f2kR3ITw3g9Jb+8dfo+snlcGbebcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\raphael.cardoso\\Desktop\\SistemaVendas\\API\\SistemaVendas.csproj",
+  "projectFilePath": "C:\\Users\\raphael.cardoso\\Desktop\\SistemaVendas\\SistemaVendasTIAcademy\\API\\SistemaVendas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\raphael.cardoso\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\raphael.cardoso\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
