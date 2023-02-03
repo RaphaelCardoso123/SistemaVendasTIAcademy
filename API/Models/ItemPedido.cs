@@ -18,7 +18,6 @@ namespace SistemaVendas.Models
 
         }
 
-
         public ItemPedido(CadastrarItemPedidoDTO dto)
         {
             PedidoId = dto.PedidoId;
