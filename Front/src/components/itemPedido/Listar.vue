@@ -10,6 +10,7 @@
                     <th scope="col">ServicoId</th>
                     <th scope="col">Quantidade</th>
                     <th scope="col">Valor</th>
+                    <th scope="col">Valor Total</th>
                     <th scope="col">Ações</th>
                 </tr>
             </thead>
@@ -20,6 +21,7 @@
                     <td>{{ itemPedido. servicoId }}</td>
                     <td>{{ itemPedido. quantidade }}</td>
                     <td>{{ itemPedido. valor }}</td>
+                    <td>{{ itemPedido. valorTotal }}</td>
                     <td>
                         <button class="btn btn-success" @click="editarItemPedido(itemPedido.id)">Editar</button>
                         <button class="btn btn-danger" @click="excluirItemPedido(itemPedido)">Excluir</button>
@@ -44,6 +46,10 @@ export default {
             ItemPedidoDataService.listar()
                 .then(response => {
                     this.itensPedido = response.data;
+                    for(let item of this.itensPedido)
+                    {
+                        item.valorTotal = item.quantidade*item.valor;
+                    }
                 });
         },
         editarItemPedido(id) {
