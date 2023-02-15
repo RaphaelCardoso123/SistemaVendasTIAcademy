@@ -20,7 +20,7 @@
                     <td>{{ itemPedido. pedidoId }}</td>
                     <td>{{ itemPedido. servicoId }}</td>
                     <td>{{ itemPedido. quantidade }}</td>
-                    <td>{{ itemPedido. valor }}</td>
+                    <td>R$ {{ itemPedido. valor.toFixed(2) }}</td>
                     <td>{{ itemPedido. valorTotal }}</td>
                     <td>
                         <button class="btn btn-success" @click="editarItemPedido(itemPedido.id)">Editar</button>
